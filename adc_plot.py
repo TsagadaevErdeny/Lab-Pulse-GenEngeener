@@ -8,7 +8,7 @@ def plot_voltage_vs_time(time, voltage, max_voltage):
     plt.ylabel('Напряжение, В')
     plt.axis([0, 60, 0, max_voltage])
     plt.grid(True)
-    #plt.show()
+    plt.show()
 
 def plot_sampling_period_hist(time):
     sampling_periods = []
